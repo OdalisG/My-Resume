@@ -1,0 +1,51 @@
+body , html {
+    background-image: url("https://res.cloudinary.com/css-tricks/image/upload/v1505865066/radial-gradient_dwyy7a.png")
+}
+
+div {
+  width: 150px; 
+  border: 1px solid #000000;
+}
+
+div.a {
+  word-wrap: normal;
+}
+
+div.b {
+  word-wrap: break-word;
+
+}
+p.a {
+    word-break: break-all;
+}
+p.b {
+    word-break: break-all
+}
+
+h1{
+    text-align: center;
+}
+
+
+.header {
+	background: #f4f4f4;
+	border-bottom: #ccc 3px solid;
+	padding: 20px;
+    text-align: center;
+	font-family: arial;
+	font-size: 18px;
+    width: 1300px;
+    margin: 30px auto;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: pink;
+   color: white;
+   text-align: center;
+}
+.goback a{
+    color: black;
+}
